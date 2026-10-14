@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Suggest a feature
+    url: https://github.com/firmaless/firmaless/discussions/categories/ideas
+    about: Ideas are collected and voted on in Discussions.
+  - name: ❓ Ask a question
+    url: https://github.com/firmaless/firmaless/discussions/categories/q-a
+    about: How to do something, or whether FirmaLess can do it.
+  - name: 🔒 Report a security or privacy problem
+    url: https://github.com/firmaless/firmaless/security/advisories/new
+    about: Privately. Please do not open a public issue for these.

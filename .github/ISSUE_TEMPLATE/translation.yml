@@ -1,0 +1,42 @@
+name: 🌍 Translation issue
+description: A text that is wrong, unclear or awkward in your language.
+labels: [i18n]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > [!CAUTION]
+        > **This page is public.** If you add a screenshot, make sure it shows no document and no signature.
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language
+      options:
+        - Italiano
+        - English
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where is the text?
+      placeholder: The window for adding a signature, under the photo
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: The text as it is now
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: The text you suggest
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it better?
+      description: Optional. Helpful when it is a matter of tone or of the usual word for something.
